@@ -7,8 +7,11 @@
 **对照项目 04（三角褐指藻氮饥饿）**，演示"人 vs 非模式物种"的下游差异：真基因名、批次校正、真 GO/KEGG、ROC 诊断。
 
 ## 流程位置：harness 8 阶段
-- P0 INTAKE ✅　P1 SCAFFOLD ✅　P2 DATA ✅　P3 IMPLEMENT ✅（当前）
-- P4 RESULTS ⬜（下一步：填 README 真实数字）　P5 SHIP ⬜　P6 LEARN ⬜　P7 CLOSE ⬜
+- P0 INTAKE ✅　P1 SCAFFOLD ✅　P2 DATA ✅　P3 IMPLEMENT ✅　P4 RESULTS ✅　P5 SHIP ✅　P6 LEARN ✅　P7 CLOSE ✅
+- **🎉 05 项目全部完成（P0→P7）**
+- GitHub: https://github.com/jiweichen28-web/05_proteomics-human-HCC-serum-PXD001171 (public)
+- 教训笔记: notes-lessons/No.5_lessons_human_proteomics.tex(+pdf, 9页, 不入库)
+- 顶层 README 索引已加 05
 
 ## P3 实测关键结果（填 README 用，已逐脚本验证）
 - 合并：212 共享基因 → 有效值过滤(组内≥50%) → **161 基因 × 205 样本**(HCC 97 / Cirrhosis 108; GU 116 / TU 89)
