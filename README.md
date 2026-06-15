@@ -2,7 +2,7 @@
 
 LC-MS/MS 鸟枪蛋白质组，比较肝细胞癌（HCC）与肝硬化患者血清的蛋白质组差异，寻找诊断标志物。数据来自 ProteomeXchange PXD001171（MaxQuant 标记自由定量），含两个独立队列（美国 Georgetown + 埃及 Tanta）。本项目为其再分析。
 
-标签：`proteomics` `LC-MS/MS` `MaxQuant` `LFQ` `human` `HCC` `biomarker` `ROC` `GO-enrichment` `batch-correction` `R`
+标签：`proteomics` `LC-MS/MS` `MaxQuant` `LFQ` `human` `HCC` `biomarker` `ROC` `cross-cohort-validation` `LASSO-panel` `GSEA` `batch-correction` `R`
 
 ## 数据来源
 
@@ -42,6 +42,8 @@ _common.R              路径自定位 + 绘图风格 + 两队列 proteinGroups 
 02_pca_plsda.R         PCA（疾病/队列双上色）+ PLS-DA（LOO + VIP）
 03_diff_proteins.R     HCC vs 肝硬化差异（limma + 队列校正）→ 火山图/热图/箱线
 04_enrichment_roc.R    GO/KEGG 富集（clusterProfiler）+ top 蛋白 ROC/AUC 诊断性能
+05_cross_cohort_panel.R  【深入】跨队列验证 + 多蛋白 panel：分队列差异一致性 + GU↔TU 外部验证 + LASSO/逻辑回归 panel + 已知 HCC 标志物核查
+06_gsea_hallmark.R       【深入】通路富集进阶：MSigDB Hallmark ORA + GSEA preranked（补 ORA 阈值依赖之不足）
 ```
 
 运行（从项目任意目录，脚本自动定位项目根，按编号逐个跑）：
@@ -53,6 +55,8 @@ Rscript scripts/01_clean_normalize.R    # 过滤 → log2 → ComBat → 填补 
 Rscript scripts/02_pca_plsda.R          # PCA + PLS-DA（LOO + VIP）
 Rscript scripts/03_diff_proteins.R      # 差异蛋白 → 火山/热图/箱线
 Rscript scripts/04_enrichment_roc.R     # GO/KEGG 富集 + ROC
+Rscript scripts/05_cross_cohort_panel.R # 【深入】跨队列验证 + 多蛋白 panel
+Rscript scripts/06_gsea_hallmark.R      # 【深入】Hallmark ORA + GSEA
 ```
 
 `_common.R` 自动定位项目根，从任意目录运行均可。PLS-DA 为手写 NIPALS 实现。
@@ -90,6 +94,24 @@ Rscript scripts/04_enrichment_roc.R     # GO/KEGG 富集 + ROC
 
 > **诚实说明**：本再分析仅用公开的 `proteinGroups.txt`，未做原文的 MRM 靶向验证；血清深度耗竭后蛋白数少（161），PLS-DA/AUC 偏中等是数据本身决定的，不是流程问题。结果方向（HCC 血清免疫球蛋白/急性期蛋白重塑）与原文一致。
 
+### 深入分析（05/06：从基础复现到临床转化再分析）
+
+基础流程（差异→GO/KEGG→ROC）之上，利用本数据"天然两队列"的优势，加做了 biomarker 稳健性验证与通路机制补充。
+
+**跨队列验证 + 多蛋白 panel（`05_cross_cohort_panel.R`）**
+
+- **分队列差异一致性**：GU、TU 各自做 HCC vs 肝硬化差异，两队列 log2FC **相关 r=0.73、方向一致 77%**（149 共享基因）。筛出 **16 个 robust markers**（两队列方向一致 + 合并显著）：`APOL1`、`B2M`、`FCGBP`、`VCAM1`、`ADIPOQ`、`COMP`、`LYVE1` 等。
+- **⚠️ 防数据泄漏（关键）**：跨队列验证**绝不能用 `01` 的 ComBat 矩阵**——ComBat 用了两队列 + 标签做全局估计，测试队列信息会泄进训练特征、AUC 虚高。本脚本从**原始矩阵**出发，每队列各自 log2→填补→**组内 z-score**，模型只学"队列内相对模式"，跨队列迁移才是真外部验证。
+- **外部验证 AUC**：4 蛋白逻辑回归 panel（SERPING1+B2M+CLU+APOL1）**GU 训练→TU 测试 AUC 0.73**，**TU 训练→GU 测试 0.77**；LASSO panel 双向 0.70/0.68。**真外部验证下仍稳定，说明信号可跨人群迁移。**
+- **panel >> 单蛋白**：5 折 CV 下，单蛋白（z-score 后）AUC 仅 0.49–0.54（近乎随机），4 蛋白 panel 跳到 **0.73**。这定量印证了"临床 biomarker 要靠组合而非单一蛋白"。
+- **已知 HCC 标志物核查**：数据检出 16/20 已知肝病/HCC 血清标志物；金标准 **AFP 检出但太稀疏**（血清去高丰度 + LC-MS 覆盖有限）被有效值过滤剔除——这是真实 biomarker 研究的常见局限，如实标注。其中 B2M、APOL1、VCAM1、FCGBP 在本分析里显著。
+
+**通路机制补充（`06_gsea_hallmark.R`）**
+
+- ORA 阈值依赖强（只用 19 个显著蛋白），补做 **GSEA preranked**（159 基因按 signed −log10P 排序，利用全部排序信息）。
+- **MSigDB Hallmark GSEA**：富出 3 条 —— **COAGULATION（NES +1.53，HCC 上调最强）**、**COMPLEMENT（+1.36）**、**EPITHELIAL_MESENCHYMAL_TRANSITION（−1.51，下调）**。凝血/补体在 HCC 上调是肝功能重塑的经典表现，生物学讲得通。
+- *注*：原计划也做 Reactome，但 `reactome.db`（454MB）本网络下载失败，脚本保留 Reactome 分支（日后装上自动出图），当前以 Hallmark 为主。GSEA 在 161 基因上统计偏薄，结果作补充并标注局限。
+
 ## 图件输出
 
 `results/figures/`，每图含 `.pdf` + `.png`(300ppi)，图内文字一律英文：
@@ -100,12 +122,15 @@ Rscript scripts/04_enrichment_roc.R     # GO/KEGG 富集 + ROC
 | 02 | PCA 得分（疾病上色 / 队列上色两版）、Scree、PLS-DA 得分 |
 | 03 | 火山图、显著蛋白热图、top 蛋白分组箱线 |
 | 04 | GO 富集气泡图、KEGG 富集条形、top 标志物 ROC 曲线 |
+| 05 | 【深入】GU vs TU log2FC 一致性散点、跨队列外部验证 ROC、panel vs 单蛋白 AUC 条形 |
+| 06 | 【深入】Hallmark ORA 条形、Hallmark GSEA 点图（NES） |
 
 ## 环境
 
 ```
-R 4.x：data.table, matrixStats, ggplot2, ggrepel, pheatmap, RColorBrewer, pROC
-Bioconductor：limma（差异）、clusterProfiler + org.Hs.eg.db（GO/KEGG）、sva（ComBat 批次校正）
+R 4.x：data.table, matrixStats, ggplot2, ggrepel, pheatmap, RColorBrewer, pROC, glmnet, msigdbr
+Bioconductor：limma（差异）、clusterProfiler + org.Hs.eg.db（GO/KEGG）、sva（ComBat 批次校正）、fgsea（GSEA）
+可选：ReactomePA（Reactome 通路富集；reactome.db 较大，网络差可跳过）
 ```
 
 图内文字一律英文，`theme_pub_bw()` 用 sans 字体，无需中文字体。`sessionInfo.txt` 记录完整版本。

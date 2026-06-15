@@ -1,0 +1,6 @@
+"model","n_features","CV_AUC"
+"SERPING1",1,0.536
+"B2M",1,0.486
+"CLU",1,0.494
+"APOL1",1,0.517
+"4-protein panel",4,0.733

@@ -1,0 +1,5 @@
+"model","train","test","n_features","AUC"
+"LASSO","GU","TU",14,0.697
+"LASSO","TU","GU",12,0.681
+"Logistic-4prot","GU","TU",4,0.73
+"Logistic-4prot","TU","GU",4,0.773

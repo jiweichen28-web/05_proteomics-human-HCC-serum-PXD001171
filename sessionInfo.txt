@@ -18,5 +18,45 @@ tzcode source: internal
 attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
+other attached packages:
+ [1] sva_3.54.0             BiocParallel_1.40.0    genefilter_1.88.0     
+ [4] mgcv_1.9-4             nlme_3.1-169           clusterProfiler_4.14.6
+ [7] limma_3.62.2           pROC_1.19.0.1          fgsea_1.32.4          
+[10] msigdbr_26.1.0         glmnet_5.0             Matrix_1.7-5          
+
 loaded via a namespace (and not attached):
-[1] compiler_4.4.2
+  [1] DBI_1.3.0               gson_0.1.0              rlang_1.2.0            
+  [4] magrittr_2.0.5          DOSE_4.0.1              otel_0.2.0             
+  [7] matrixStats_1.5.0       compiler_4.4.2          RSQLite_2.4.5          
+ [10] png_0.1-9               vctrs_0.7.3             reshape2_1.4.5         
+ [13] stringr_1.6.0           pkgconfig_2.0.3         shape_1.4.6.1          
+ [16] crayon_1.5.3            fastmap_1.2.0           XVector_0.46.0         
+ [19] enrichplot_1.26.6       UCSC.utils_1.2.0        purrr_1.2.2            
+ [22] bit_4.6.0               zlibbioc_1.52.0         cachem_1.1.0           
+ [25] aplot_0.2.9             GenomeInfoDb_1.42.3     jsonlite_2.0.0         
+ [28] blob_1.3.0              parallel_4.4.2          R6_2.6.1               
+ [31] stringi_1.8.7           RColorBrewer_1.1-3      GOSemSim_2.32.0        
+ [34] Rcpp_1.1.0              assertthat_0.2.1        iterators_1.0.14       
+ [37] ggtangle_0.1.2          R.utils_2.13.0          IRanges_2.40.1         
+ [40] splines_4.4.2           igraph_2.2.1            tidyselect_1.2.1       
+ [43] qvalue_2.38.0           codetools_0.2-20        curl_7.1.0             
+ [46] lattice_0.22-9          tibble_3.3.1            plyr_1.8.9             
+ [49] Biobase_2.66.0          treeio_1.30.0           KEGGREST_1.46.0        
+ [52] S7_0.2.2                gridGraphics_0.5-1      survival_3.8-6         
+ [55] Biostrings_2.74.1       pillar_1.11.1           ggtree_3.14.0          
+ [58] MatrixGenerics_1.18.1   foreach_1.5.2           stats4_4.4.2           
+ [61] ggfun_0.2.0             generics_0.1.4          S4Vectors_0.44.0       
+ [64] ggplot2_4.0.3           scales_1.4.0            tidytree_0.4.7         
+ [67] xtable_1.8-8            glue_1.8.1              lazyeval_0.2.3         
+ [70] tools_4.4.2             data.table_1.17.8       locfit_1.5-9.12        
+ [73] annotate_1.84.0         babelgene_22.9          XML_3.99-0.23          
+ [76] fs_2.1.0                fastmatch_1.1-8         cowplot_1.2.0          
+ [79] grid_4.4.2              tidyr_1.3.2             ape_5.8-1              
+ [82] edgeR_4.4.2             AnnotationDbi_1.68.0    colorspace_2.1-2       
+ [85] GenomeInfoDbData_1.2.13 patchwork_1.3.2         cli_3.6.6              
+ [88] rappdirs_0.3.4          dplyr_1.2.1             gtable_0.3.6           
+ [91] R.methodsS3_1.8.2       yulab.utils_0.2.4       digest_0.6.39          
+ [94] BiocGenerics_0.52.0     ggrepel_0.9.8           ggplotify_0.1.3        
+ [97] farver_2.1.2            memoise_2.0.1           R.oo_1.27.1            
+[100] lifecycle_1.0.5         httr_1.4.8              GO.db_3.20.0           
+[103] statmod_1.5.1           bit64_4.6.0-1          
