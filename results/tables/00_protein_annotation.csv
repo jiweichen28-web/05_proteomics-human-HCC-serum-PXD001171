@@ -1,0 +1,213 @@
+"","protein_group","gene","uniprot","n_peptides"
+"IGLC1",">sp|B9A064|IGLL5_HUMAN Immunoglobulin lambda-like polypeptide 5 OS=Homo sapiens GN=IGLL5 PE=2 SV=2;>sp|P0CG04|LAC1_HUMAN Ig lambda-1 chain C regions OS=Homo sapiens GN=IGLC1 PE=1 SV=1","IGLC1","B9A064",5
+"QSOX1",">sp|O00391|QSOX1_HUMAN Sulfhydryl oxidase 1 OS=Homo sapiens GN=QSOX1 PE=1 SV=3","QSOX1","O00391",12
+"CHL1",">sp|O00533|CHL1_HUMAN Neural cell adhesion molecule L1-like protein OS=Homo sapiens GN=CHL1 PE=1 SV=4","CHL1","O00533",4
+"NRP1",">sp|O14786|NRP1_HUMAN Neuropilin-1 OS=Homo sapiens GN=NRP1 PE=1 SV=3","NRP1","O14786",3
+"APOL1",">sp|O14791|APOL1_HUMAN Apolipoprotein L1 OS=Homo sapiens GN=APOL1 PE=1 SV=5","APOL1","O14791",8
+"CD5L",">sp|O43866|CD5L_HUMAN CD5 antigen-like OS=Homo sapiens GN=CD5L PE=1 SV=1","CD5L","O43866",13
+"FCGR3B",">sp|O75015|FCG3B_HUMAN Low affinity immunoglobulin gamma Fc region receptor III-B OS=Homo sapiens GN=FCGR3B PE=1 SV=2","FCGR3B","O75015",4
+"FCN3",">sp|O75636|FCN3_HUMAN Ficolin-3 OS=Homo sapiens GN=FCN3 PE=1 SV=2","FCN3","O75636",9
+"ATRN",">sp|O75882|ATRN_HUMAN Attractin OS=Homo sapiens GN=ATRN PE=1 SV=2","ATRN","O75882",20
+"APOM",">sp|O95445|APOM_HUMAN Apolipoprotein M OS=Homo sapiens GN=APOM PE=1 SV=2","APOM","O95445",7
+"VNN1",">sp|O95497|VNN1_HUMAN Pantetheinase OS=Homo sapiens GN=VNN1 PE=1 SV=2","VNN1","O95497",3
+"CP",">sp|P00450|CERU_HUMAN Ceruloplasmin OS=Homo sapiens GN=CP PE=1 SV=1","CP","P00450",63
+"F13A1",">sp|P00488|F13A_HUMAN Coagulation factor XIII A chain OS=Homo sapiens GN=F13A1 PE=1 SV=4","F13A1","P00488",2
+"F2",">sp|P00734|THRB_HUMAN Prothrombin OS=Homo sapiens GN=F2 PE=1 SV=2","F2","P00734",32
+"C1R",">sp|P00736|C1R_HUMAN Complement C1r subcomponent OS=Homo sapiens GN=C1R PE=1 SV=2","C1R","P00736",26
+"HP",">sp|P00738|HPT_HUMAN Haptoglobin OS=Homo sapiens GN=HP PE=1 SV=1","HP","P00738",24
+"HPR",">sp|P00739|HPTR_HUMAN Haptoglobin-related protein OS=Homo sapiens GN=HPR PE=1 SV=2","HPR","P00739",18
+"F9",">sp|P00740|FA9_HUMAN Coagulation factor IX OS=Homo sapiens GN=F9 PE=1 SV=2","F9","P00740",12
+"F10",">sp|P00742|FA10_HUMAN Coagulation factor X OS=Homo sapiens GN=F10 PE=1 SV=2","F10","P00742",11
+"CFD",">sp|P00746|CFAD_HUMAN Complement factor D OS=Homo sapiens GN=CFD PE=1 SV=5","CFD","P00746",10
+"PLG",">sp|P00747|PLMN_HUMAN Plasminogen OS=Homo sapiens GN=PLG PE=1 SV=2","PLG","P00747",52
+"F12",">sp|P00748|FA12_HUMAN Coagulation factor XII OS=Homo sapiens GN=F12 PE=1 SV=3","F12","P00748",15
+"CFB",">sp|P00751|CFAB_HUMAN Complement factor B OS=Homo sapiens GN=CFB PE=1 SV=2","CFB","P00751",43
+"CA1",">sp|P00915|CAH1_HUMAN Carbonic anhydrase 1 OS=Homo sapiens GN=CA1 PE=1 SV=2","CA1","P00915",5
+"CA2",">sp|P00918|CAH2_HUMAN Carbonic anhydrase 2 OS=Homo sapiens GN=CA2 PE=1 SV=2","CA2","P00918",2
+"SERPINC1",">sp|P01008|ANT3_HUMAN Antithrombin-III OS=Homo sapiens GN=SERPINC1 PE=1 SV=1","SERPINC1","P01008",24
+"SERPINA1",">sp|P01009|A1AT_HUMAN Alpha-1-antitrypsin OS=Homo sapiens GN=SERPINA1 PE=1 SV=3","SERPINA1","P01009",18
+"SERPINA3",">sp|P01011|AACT_HUMAN Alpha-1-antichymotrypsin OS=Homo sapiens GN=SERPINA3 PE=1 SV=2","SERPINA3","P01011",26
+"AGT",">sp|P01019|ANGT_HUMAN Angiotensinogen OS=Homo sapiens GN=AGT PE=1 SV=1","AGT","P01019",15
+"A2M",">sp|P01023|A2MG_HUMAN Alpha-2-macroglobulin OS=Homo sapiens GN=A2M PE=1 SV=3","A2M","P01023",102
+"C3",">sp|P01024|CO3_HUMAN Complement C3 OS=Homo sapiens GN=C3 PE=1 SV=2","C3","P01024",144
+"C5",">sp|P01031|CO5_HUMAN Complement C5 OS=Homo sapiens GN=C5 PE=1 SV=4","C5","P01031",70
+"TIMP1",">sp|P01033|TIMP1_HUMAN Metalloproteinase inhibitor 1 OS=Homo sapiens GN=TIMP1 PE=1 SV=1","TIMP1","P01033",2
+"CST3",">sp|P01034|CYTC_HUMAN Cystatin-C OS=Homo sapiens GN=CST3 PE=1 SV=1","CST3","P01034",5
+"KNG1",">sp|P01042|KNG1_HUMAN Kininogen-1 OS=Homo sapiens GN=KNG1 PE=1 SV=2","KNG1","P01042",27
+"IGJ",">sp|P01591|IGJ_HUMAN Immunoglobulin J chain OS=Homo sapiens GN=IGJ PE=1 SV=4","IGJ","P01591",7
+"IGKV4-1",">sp|P01625|KV402_HUMAN Ig kappa chain V-IV region Len OS=Homo sapiens PE=1 SV=2;>sp|P06312|KV401_HUMAN Ig kappa chain V-IV region (Fragment) OS=Homo sapiens GN=IGKV4-1 PE=4 SV=1;>sp|P06313|KV403_HUMAN Ig kappa chain V-IV region JI OS=Homo sapiens PE=4 SV=1;>sp|P06314|KV404_HUMAN Ig kappa chain V-IV region B17 OS=Homo sapiens PE=2 SV=1","IGKV4-1","P01625",3
+"PIGR",">sp|P01833|PIGR_HUMAN Polymeric immunoglobulin receptor OS=Homo sapiens GN=PIGR PE=1 SV=4","PIGR","P01833",2
+"IGKC",">sp|P01834|IGKC_HUMAN Ig kappa chain C region OS=Homo sapiens GN=IGKC PE=1 SV=1","IGKC","P01834",7
+"IGHG1",">sp|P01857|IGHG1_HUMAN Ig gamma-1 chain C region OS=Homo sapiens GN=IGHG1 PE=1 SV=1","IGHG1","P01857",17
+"IGHG3",">sp|P01860|IGHG3_HUMAN Ig gamma-3 chain C region OS=Homo sapiens GN=IGHG3 PE=1 SV=2","IGHG3","P01860",15
+"IGHG4",">sp|P01861|IGHG4_HUMAN Ig gamma-4 chain C region OS=Homo sapiens GN=IGHG4 PE=1 SV=1","IGHG4","P01861",9
+"IGHM",">sp|P01871|IGHM_HUMAN Ig mu chain C region OS=Homo sapiens GN=IGHM PE=1 SV=3","IGHM","P01871",21
+"IGHA1",">sp|P01876|IGHA1_HUMAN Ig alpha-1 chain C region OS=Homo sapiens GN=IGHA1 PE=1 SV=2","IGHA1","P01876",13
+"IGHA2",">sp|P01877|IGHA2_HUMAN Ig alpha-2 chain C region OS=Homo sapiens GN=IGHA2 PE=1 SV=3","IGHA2","P01877",11
+"IGHD",">sp|P01880|IGHD_HUMAN Ig delta chain C region OS=Homo sapiens GN=IGHD PE=1 SV=2","IGHD","P01880",8
+"HBD",">sp|P02042|HBD_HUMAN Hemoglobin subunit delta OS=Homo sapiens GN=HBD PE=1 SV=2","HBD","P02042",8
+"APOA1",">sp|P02647|APOA1_HUMAN Apolipoprotein A-I OS=Homo sapiens GN=APOA1 PE=1 SV=1","APOA1","P02647",52
+"APOE",">sp|P02649|APOE_HUMAN Apolipoprotein E OS=Homo sapiens GN=APOE PE=1 SV=1","APOE","P02649",22
+"APOA2",">sp|P02652|APOA2_HUMAN Apolipoprotein A-II OS=Homo sapiens GN=APOA2 PE=1 SV=1","APOA2","P02652",9
+"APOC1",">sp|P02654|APOC1_HUMAN Apolipoprotein C-I OS=Homo sapiens GN=APOC1 PE=1 SV=1","APOC1","P02654",4
+"APOC2",">sp|P02655|APOC2_HUMAN Apolipoprotein C-II OS=Homo sapiens GN=APOC2 PE=1 SV=1","APOC2","P02655",4
+"APOC3",">sp|P02656|APOC3_HUMAN Apolipoprotein C-III OS=Homo sapiens GN=APOC3 PE=1 SV=1","APOC3","P02656",3
+"FGA",">sp|P02671|FIBA_HUMAN Fibrinogen alpha chain OS=Homo sapiens GN=FGA PE=1 SV=2","FGA","P02671",20
+"FGB",">sp|P02675|FIBB_HUMAN Fibrinogen beta chain OS=Homo sapiens GN=FGB PE=1 SV=2","FGB","P02675",16
+"FGG",">sp|P02679|FIBG_HUMAN Fibrinogen gamma chain OS=Homo sapiens GN=FGG PE=1 SV=3","FGG","P02679",11
+"CRP",">sp|P02741|CRP_HUMAN C-reactive protein OS=Homo sapiens GN=CRP PE=1 SV=1","CRP","P02741",6
+"APCS",">sp|P02743|SAMP_HUMAN Serum amyloid P-component OS=Homo sapiens GN=APCS PE=1 SV=2","APCS","P02743",7
+"C1QA",">sp|P02745|C1QA_HUMAN Complement C1q subcomponent subunit A OS=Homo sapiens GN=C1QA PE=1 SV=2","C1QA","P02745",4
+"C1QB",">sp|P02746|C1QB_HUMAN Complement C1q subcomponent subunit B OS=Homo sapiens GN=C1QB PE=1 SV=3","C1QB","P02746",7
+"C1QC",">sp|P02747|C1QC_HUMAN Complement C1q subcomponent subunit C OS=Homo sapiens GN=C1QC PE=1 SV=3","C1QC","P02747",4
+"C9",">sp|P02748|CO9_HUMAN Complement component C9 OS=Homo sapiens GN=C9 PE=1 SV=2","C9","P02748",23
+"APOH",">sp|P02749|APOH_HUMAN Beta-2-glycoprotein 1 OS=Homo sapiens GN=APOH PE=1 SV=3","APOH","P02749",16
+"LRG1",">sp|P02750|A2GL_HUMAN Leucine-rich alpha-2-glycoprotein OS=Homo sapiens GN=LRG1 PE=1 SV=2","LRG1","P02750",10
+"FN1",">sp|P02751|FINC_HUMAN Fibronectin OS=Homo sapiens GN=FN1 PE=1 SV=4","FN1","P02751",75
+"RBP4",">sp|P02753|RET4_HUMAN Retinol-binding protein 4 OS=Homo sapiens GN=RBP4 PE=1 SV=3","RBP4","P02753",10
+"AMBP",">sp|P02760|AMBP_HUMAN Protein AMBP OS=Homo sapiens GN=AMBP PE=1 SV=1","AMBP","P02760",16
+"ORM1",">sp|P02763|A1AG1_HUMAN Alpha-1-acid glycoprotein 1 OS=Homo sapiens GN=ORM1 PE=1 SV=1","ORM1","P02763",13
+"AHSG",">sp|P02765|FETUA_HUMAN Alpha-2-HS-glycoprotein OS=Homo sapiens GN=AHSG PE=1 SV=1","AHSG","P02765",12
+"TTR",">sp|P02766|TTHY_HUMAN Transthyretin OS=Homo sapiens GN=TTR PE=1 SV=1","TTR","P02766",11
+"AFP",">sp|P02771|FETA_HUMAN Alpha-fetoprotein OS=Homo sapiens GN=AFP PE=1 SV=1","AFP","P02771",35
+"GC",">sp|P02774|VTDB_HUMAN Vitamin D-binding protein OS=Homo sapiens GN=GC PE=1 SV=1","GC","P02774",35
+"PPBP",">sp|P02775|CXCL7_HUMAN Platelet basic protein OS=Homo sapiens GN=PPBP PE=1 SV=3","PPBP","P02775",5
+"TF",">sp|P02787|TRFE_HUMAN Serotransferrin OS=Homo sapiens GN=TF PE=1 SV=3","TF","P02787",38
+"HPX",">sp|P02790|HEMO_HUMAN Hemopexin OS=Homo sapiens GN=HPX PE=1 SV=2","HPX","P02790",31
+"FTL",">sp|P02792|FRIL_HUMAN Ferritin light chain OS=Homo sapiens GN=FTL PE=1 SV=2","FTL","P02792",4
+"PRH1",">sp|P02810|PRPC_HUMAN Salivary acidic proline-rich phosphoprotein 1/2 OS=Homo sapiens GN=PRH1 PE=1 SV=2","PRH1","P02810",2
+"KLKB1",">sp|P03952|KLKB1_HUMAN Plasma kallikrein OS=Homo sapiens GN=KLKB1 PE=1 SV=1","KLKB1","P03952",25
+"C4BPA",">sp|P04003|C4BPA_HUMAN C4b-binding protein alpha chain OS=Homo sapiens GN=C4BPA PE=1 SV=2","C4BPA","P04003",14
+"VTN",">sp|P04004|VTNC_HUMAN Vitronectin OS=Homo sapiens GN=VTN PE=1 SV=1","VTN","P04004",14
+"PROC",">sp|P04070|PROC_HUMAN Vitamin K-dependent protein C OS=Homo sapiens GN=PROC PE=1 SV=1","PROC","P04070",4
+"APOB",">sp|P04114|APOB_HUMAN Apolipoprotein B-100 OS=Homo sapiens GN=APOB PE=1 SV=2","APOB","P04114",162
+"LCAT",">sp|P04180|LCAT_HUMAN Phosphatidylcholine-sterol acyltransferase OS=Homo sapiens GN=LCAT PE=1 SV=1","LCAT","P04180",9
+"HRG",">sp|P04196|HRG_HUMAN Histidine-rich glycoprotein OS=Homo sapiens GN=HRG PE=1 SV=1","HRG","P04196",18
+"A1BG",">sp|P04217|A1BG_HUMAN Alpha-1B-glycoprotein OS=Homo sapiens GN=A1BG PE=1 SV=4","A1BG","P04217",16
+"VWF",">sp|P04275|VWF_HUMAN von Willebrand factor OS=Homo sapiens GN=VWF PE=1 SV=4","VWF","P04275",76
+"SHBG",">sp|P04278|SHBG_HUMAN Sex hormone-binding globulin OS=Homo sapiens GN=SHBG PE=1 SV=2","SHBG","P04278",11
+"ALDOB",">sp|P05062|ALDOB_HUMAN Fructose-bisphosphate aldolase B OS=Homo sapiens GN=ALDOB PE=1 SV=2","ALDOB","P05062",6
+"APOD",">sp|P05090|APOD_HUMAN Apolipoprotein D OS=Homo sapiens GN=APOD PE=1 SV=1","APOD","P05090",7
+"SERPING1",">sp|P05155|IC1_HUMAN Plasma protease C1 inhibitor OS=Homo sapiens GN=SERPING1 PE=1 SV=2","SERPING1","P05155",21
+"CFI",">sp|P05156|CFAI_HUMAN Complement factor I OS=Homo sapiens GN=CFI PE=1 SV=2","CFI","P05156",22
+"F13B",">sp|P05160|F13B_HUMAN Coagulation factor XIII B chain OS=Homo sapiens GN=F13B PE=1 SV=3","F13B","P05160",18
+"ICAM1",">sp|P05362|ICAM1_HUMAN Intercellular adhesion molecule 1 OS=Homo sapiens GN=ICAM1 PE=1 SV=2","ICAM1","P05362",6
+"CLEC3B",">sp|P05452|TETN_HUMAN Tetranectin OS=Homo sapiens GN=CLEC3B PE=1 SV=3","CLEC3B","P05452",10
+"SERPINA7",">sp|P05543|THBG_HUMAN Thyroxine-binding globulin OS=Homo sapiens GN=SERPINA7 PE=1 SV=2","SERPINA7","P05543",18
+"SERPIND1",">sp|P05546|HEP2_HUMAN Heparin cofactor 2 OS=Homo sapiens GN=SERPIND1 PE=1 SV=3","SERPIND1","P05546",23
+"BCHE",">sp|P06276|CHLE_HUMAN Cholinesterase OS=Homo sapiens GN=BCHE PE=1 SV=1","BCHE","P06276",7
+"GSN",">sp|P06396|GELS_HUMAN Gelsolin OS=Homo sapiens GN=GSN PE=1 SV=1","GSN","P06396",36
+"C2",">sp|P06681|CO2_HUMAN Complement C2 OS=Homo sapiens GN=C2 PE=1 SV=2","C2","P06681",27
+"S100A9",">sp|P06702|S10A9_HUMAN Protein S100-A9 OS=Homo sapiens GN=S100A9 PE=1 SV=1","S100A9","P06702",4
+"APOA4",">sp|P06727|APOA4_HUMAN Apolipoprotein A-IV OS=Homo sapiens GN=APOA4 PE=1 SV=3","APOA4","P06727",39
+"PROS1",">sp|P07225|PROS_HUMAN Vitamin K-dependent protein S OS=Homo sapiens GN=PROS1 PE=1 SV=1","PROS1","P07225",13
+"CSF1R",">sp|P07333|CSF1R_HUMAN Macrophage colony-stimulating factor 1 receptor OS=Homo sapiens GN=CSF1R PE=1 SV=2","CSF1R","P07333",4
+"C8A",">sp|P07357|CO8A_HUMAN Complement component C8 alpha chain OS=Homo sapiens GN=C8A PE=1 SV=2","C8A","P07357",17
+"C8B",">sp|P07358|CO8B_HUMAN Complement component C8 beta chain OS=Homo sapiens GN=C8B PE=1 SV=3","C8B","P07358",26
+"GP1BA",">sp|P07359|GP1BA_HUMAN Platelet glycoprotein Ib alpha chain OS=Homo sapiens GN=GP1BA PE=1 SV=2","GP1BA","P07359",5
+"C8G",">sp|P07360|CO8G_HUMAN Complement component C8 gamma chain OS=Homo sapiens GN=C8G PE=1 SV=3","C8G","P07360",10
+"RNASE1",">sp|P07998|RNAS1_HUMAN Ribonuclease pancreatic OS=Homo sapiens GN=RNASE1 PE=1 SV=4","RNASE1","P07998",2
+"SERPINA6",">sp|P08185|CBG_HUMAN Corticosteroid-binding globulin OS=Homo sapiens GN=SERPINA6 PE=1 SV=1","SERPINA6","P08185",12
+"MMP2",">sp|P08253|MMP2_HUMAN 72 kDa type IV collagenase OS=Homo sapiens GN=MMP2 PE=1 SV=2","MMP2","P08253",4
+"SOD3",">sp|P08294|SODE_HUMAN Extracellular superoxide dismutase [Cu-Zn] OS=Homo sapiens GN=SOD3 PE=1 SV=2","SOD3","P08294",5
+"LPA",">sp|P08519|APOA_HUMAN Apolipoprotein(a) OS=Homo sapiens GN=LPA PE=1 SV=1","LPA","P08519",15
+"CD14",">sp|P08571|CD14_HUMAN Monocyte differentiation antigen CD14 OS=Homo sapiens GN=CD14 PE=1 SV=2","CD14","P08571",8
+"CFH",">sp|P08603|CFAH_HUMAN Complement factor H OS=Homo sapiens GN=CFH PE=1 SV=4","CFH","P08603",71
+"FCGR3A",">sp|P08637|FCG3A_HUMAN Low affinity immunoglobulin gamma Fc region receptor III-A OS=Homo sapiens GN=FCGR3A PE=1 SV=2","FCGR3A","P08637",4
+"SERPINF2",">sp|P08697|A2AP_HUMAN Alpha-2-antiplasmin OS=Homo sapiens GN=SERPINF2 PE=1 SV=3","SERPINF2","P08697",20
+"DBH",">sp|P09172|DOPO_HUMAN Dopamine beta-hydroxylase OS=Homo sapiens GN=DBH PE=1 SV=3","DBH","P09172",10
+"SPARC",">sp|P09486|SPRC_HUMAN SPARC OS=Homo sapiens GN=SPARC PE=1 SV=1","SPARC","P09486",2
+"C1S",">sp|P09871|C1S_HUMAN Complement C1s subcomponent OS=Homo sapiens GN=C1S PE=1 SV=1","C1S","P09871",24
+"C4A",">sp|P0C0L4|CO4A_HUMAN Complement C4-A OS=Homo sapiens GN=C4A PE=1 SV=2","C4A","P0C0L4",92
+"C4B",">sp|P0C0L5|CO4B_HUMAN Complement C4-B OS=Homo sapiens GN=C4B PE=1 SV=2","C4B","P0C0L5",92
+"IGLC6",">sp|P0CG06|LAC3_HUMAN Ig lambda-3 chain C regions OS=Homo sapiens GN=IGLC3 PE=1 SV=1;>sp|P0CG05|LAC2_HUMAN Ig lambda-2 chain C regions OS=Homo sapiens GN=IGLC2 PE=1 SV=1;>sp|P0CF74|LAC6_HUMAN Ig lambda-6 chain C region OS=Homo sapiens GN=IGLC6 PE=4 SV=1;>sp|A0M8Q6|LAC7_HUMAN Ig lambda-7 chain C region OS=Homo sapiens GN=IGLC7 PE=1 SV=2","IGLC6","P0CG06",4
+"SAA1",">sp|P0DJI8|SAA1_HUMAN Serum amyloid A-1 protein OS=Homo sapiens GN=SAA1 PE=1 SV=1","SAA1","P0DJI8",8
+"SAA2",">sp|P0DJI9|SAA2_HUMAN Serum amyloid A-2 protein OS=Homo sapiens GN=SAA2 PE=1 SV=1","SAA2","P0DJI9",6
+"C7",">sp|P10643|CO7_HUMAN Complement component C7 OS=Homo sapiens GN=C7 PE=1 SV=2","C7","P10643",42
+"CHGA",">sp|P10645|CMGA_HUMAN Chromogranin-A OS=Homo sapiens GN=CHGA PE=1 SV=7","CHGA","P10645",7
+"CLU",">sp|P10909|CLUS_HUMAN Clusterin OS=Homo sapiens GN=CLU PE=1 SV=1","CLU","P10909",14
+"MBL2",">sp|P11226|MBL2_HUMAN Mannose-binding protein C OS=Homo sapiens GN=MBL2 PE=1 SV=2","MBL2","P11226",7
+"DMD",">sp|P11532|DMD_HUMAN Dystrophin OS=Homo sapiens GN=DMD PE=1 SV=3","DMD","P11532",2
+"COL6A3",">sp|P12111|CO6A3_HUMAN Collagen alpha-3(VI) chain OS=Homo sapiens GN=COL6A3 PE=1 SV=5","COL6A3","P12111",2
+"F5",">sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens GN=F5 PE=1 SV=4","F5","P12259",4
+"CDH1",">sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens GN=CDH1 PE=1 SV=3","CDH1","P12830",2
+"PEPD",">sp|P12955|PEPD_HUMAN Xaa-Pro dipeptidase OS=Homo sapiens GN=PEPD PE=1 SV=3","PEPD","P12955",4
+"NCAM1",">sp|P13591|NCAM1_HUMAN Neural cell adhesion molecule 1 OS=Homo sapiens GN=NCAM1 PE=1 SV=3","NCAM1","P13591",3
+"ICAM2",">sp|P13598|ICAM2_HUMAN Intercellular adhesion molecule 2 OS=Homo sapiens GN=ICAM2 PE=1 SV=2","ICAM2","P13598",4
+"C6",">sp|P13671|CO6_HUMAN Complement component C6 OS=Homo sapiens GN=C6 PE=1 SV=3","C6","P13671",30
+"LCP1",">sp|P13796|PLSL_HUMAN Plastin-2 OS=Homo sapiens GN=LCP1 PE=1 SV=6","LCP1","P13796",4
+"SELL",">sp|P14151|LYAM1_HUMAN L-selectin OS=Homo sapiens GN=SELL PE=1 SV=2","SELL","P14151",5
+"ANPEP",">sp|P15144|AMPN_HUMAN Aminopeptidase N OS=Homo sapiens GN=ANPEP PE=1 SV=4","ANPEP","P15144",4
+"PVR",">sp|P15151|PVR_HUMAN Poliovirus receptor OS=Homo sapiens GN=PVR PE=1 SV=2","PVR","P15151",3
+"CPN1",">sp|P15169|CBPN_HUMAN Carboxypeptidase N catalytic chain OS=Homo sapiens GN=CPN1 PE=1 SV=1","CPN1","P15169",10
+"CD44",">sp|P16070|CD44_HUMAN CD44 antigen OS=Homo sapiens GN=CD44 PE=1 SV=3","CD44","P16070",2
+"IGFBP3",">sp|P17936|IBP3_HUMAN Insulin-like growth factor-binding protein 3 OS=Homo sapiens GN=IGFBP3 PE=1 SV=2","IGFBP3","P17936",3
+"IGFBP2",">sp|P18065|IBP2_HUMAN Insulin-like growth factor-binding protein 2 OS=Homo sapiens GN=IGFBP2 PE=1 SV=2","IGFBP2","P18065",3
+"LBP",">sp|P18428|LBP_HUMAN Lipopolysaccharide-binding protein OS=Homo sapiens GN=LBP PE=1 SV=3","LBP","P18428",5
+"VCAM1",">sp|P19320|VCAM1_HUMAN Vascular cell adhesion protein 1 OS=Homo sapiens GN=VCAM1 PE=1 SV=1","VCAM1","P19320",12
+"ORM2",">sp|P19652|A1AG2_HUMAN Alpha-1-acid glycoprotein 2 OS=Homo sapiens GN=ORM2 PE=1 SV=2","ORM2","P19652",10
+"ITIH2",">sp|P19823|ITIH2_HUMAN Inter-alpha-trypsin inhibitor heavy chain H2 OS=Homo sapiens GN=ITIH2 PE=1 SV=2","ITIH2","P19823",30
+"ITIH1",">sp|P19827|ITIH1_HUMAN Inter-alpha-trypsin inhibitor heavy chain H1 OS=Homo sapiens GN=ITIH1 PE=1 SV=3","ITIH1","P19827",28
+"PZP",">sp|P20742|PZP_HUMAN Pregnancy zone protein OS=Homo sapiens GN=PZP PE=1 SV=4","PZP","P20742",20
+"TNXB",">sp|P22105|TENX_HUMAN Tenascin-X OS=Homo sapiens GN=TNXB PE=1 SV=3","TNXB","P22105",6
+"GPX3",">sp|P22352|GPX3_HUMAN Glutathione peroxidase 3 OS=Homo sapiens GN=GPX3 PE=1 SV=2","GPX3","P22352",6
+"IGFBP4",">sp|P22692|IBP4_HUMAN Insulin-like growth factor-binding protein 4 OS=Homo sapiens GN=IGFBP4 PE=1 SV=2","IGFBP4","P22692",2
+"CPN2",">sp|P22792|CPN2_HUMAN Carboxypeptidase N subunit 2 OS=Homo sapiens GN=CPN2 PE=1 SV=3","CPN2","P22792",17
+"PROZ",">sp|P22891|PROZ_HUMAN Vitamin K-dependent protein Z OS=Homo sapiens GN=PROZ PE=1 SV=2","PROZ","P22891",4
+"FBLN1",">sp|P23142|FBLN1_HUMAN Fibulin-1 OS=Homo sapiens GN=FBLN1 PE=1 SV=4","FBLN1","P23142",19
+"IGFBP6",">sp|P24592|IBP6_HUMAN Insulin-like growth factor-binding protein 6 OS=Homo sapiens GN=IGFBP6 PE=1 SV=1","IGFBP6","P24592",3
+"AZGP1",">sp|P25311|ZA2G_HUMAN Zinc-alpha-2-glycoprotein OS=Homo sapiens GN=AZGP1 PE=1 SV=2","AZGP1","P25311",16
+"MST1",">sp|P26927|HGFL_HUMAN Hepatocyte growth factor-like protein OS=Homo sapiens GN=MST1 PE=1 SV=2","MST1","P26927",9
+"PON1",">sp|P27169|PON1_HUMAN Serum paraoxonase/arylesterase 1 OS=Homo sapiens GN=PON1 PE=1 SV=3","PON1","P27169",13
+"CFP",">sp|P27918|PROP_HUMAN Properdin OS=Homo sapiens GN=CFP PE=1 SV=2","CFP","P27918",4
+"SERPINA4",">sp|P29622|KAIN_HUMAN Kallistatin OS=Homo sapiens GN=SERPINA4 PE=1 SV=3","SERPINA4","P29622",17
+"THBS4",">sp|P35443|TSP4_HUMAN Thrombospondin-4 OS=Homo sapiens GN=THBS4 PE=1 SV=2","THBS4","P35443",6
+"SAA4",">sp|P35542|SAA4_HUMAN Serum amyloid A-4 protein OS=Homo sapiens GN=SAA4 PE=1 SV=2","SAA4","P35542",4
+"IGFALS",">sp|P35858|ALS_HUMAN Insulin-like growth factor-binding protein complex acid labile subunit OS=Homo sapiens GN=IGFALS PE=1 SV=1","IGFALS","P35858",13
+"CHI3L1",">sp|P36222|CH3L1_HUMAN Chitinase-3-like protein 1 OS=Homo sapiens GN=CHI3L1 PE=1 SV=2","CHI3L1","P36222",3
+"SERPINF1",">sp|P36955|PEDF_HUMAN Pigment epithelium-derived factor OS=Homo sapiens GN=SERPINF1 PE=1 SV=4","SERPINF1","P36955",16
+"CFHR2",">sp|P36980|FHR2_HUMAN Complement factor H-related protein 2 OS=Homo sapiens GN=CFHR2 PE=1 SV=1","CFHR2","P36980",8
+"PTGDS",">sp|P41222|PTGDS_HUMAN Prostaglandin-H2 D-isomerase OS=Homo sapiens GN=PTGDS PE=1 SV=1","PTGDS","P41222",2
+"MCAM",">sp|P43121|MUC18_HUMAN Cell surface glycoprotein MUC18 OS=Homo sapiens GN=MCAM PE=1 SV=2","MCAM","P43121",4
+"BTD",">sp|P43251|BTD_HUMAN Biotinidase OS=Homo sapiens GN=BTD PE=1 SV=2","BTD","P43251",7
+"AFM",">sp|P43652|AFAM_HUMAN Afamin OS=Homo sapiens GN=AFM PE=1 SV=1","AFM","P43652",25
+"MASP1",">sp|P48740|MASP1_HUMAN Mannan-binding lectin serine protease 1 OS=Homo sapiens GN=MASP1 PE=1 SV=3","MASP1","P48740",11
+"COMP",">sp|P49747|COMP_HUMAN Cartilage oligomeric matrix protein OS=Homo sapiens GN=COMP PE=1 SV=2","COMP","P49747",18
+"SEPP1",">sp|P49908|SEPP1_HUMAN Selenoprotein P OS=Homo sapiens GN=SEPP1 PE=1 SV=3","SEPP1","P49908",5
+"LUM",">sp|P51884|LUM_HUMAN Lumican OS=Homo sapiens GN=LUM PE=1 SV=2","LUM","P51884",13
+"PLTP",">sp|P55058|PLTP_HUMAN Phospholipid transfer protein OS=Homo sapiens GN=PLTP PE=1 SV=1","PLTP","P55058",8
+"LYZ",">sp|P61626|LYSC_HUMAN Lysozyme C OS=Homo sapiens GN=LYZ PE=1 SV=1","LYZ","P61626",5
+"B2M",">sp|P61769|B2MG_HUMAN Beta-2-microglobulin OS=Homo sapiens GN=B2M PE=1 SV=1","B2M","P61769",4
+"TMSB4X",">sp|P62328|TYB4_HUMAN Thymosin beta-4 OS=Homo sapiens GN=TMSB4X PE=1 SV=2","TMSB4X","P62328",4
+"HBB",">sp|P68871|HBB_HUMAN Hemoglobin subunit beta OS=Homo sapiens GN=HBB PE=1 SV=2","HBB","P68871",12
+"HBA1",">sp|P69905|HBA_HUMAN Hemoglobin subunit alpha OS=Homo sapiens GN=HBA1 PE=1 SV=2","HBA1","P69905",8
+"GPLD1",">sp|P80108|PHLD_HUMAN Phosphatidylinositol-glycan-specific phospholipase D OS=Homo sapiens GN=GPLD1 PE=1 SV=3","GPLD1","P80108",13
+"DCD",">sp|P81605|DCD_HUMAN Dermcidin OS=Homo sapiens GN=DCD PE=1 SV=2","DCD","P81605",2
+"HSPG2",">sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens GN=HSPG2 PE=1 SV=4","HSPG2","P98160",6
+"CFHR1",">sp|Q03591|FHR1_HUMAN Complement factor H-related protein 1 OS=Homo sapiens GN=CFHR1 PE=1 SV=2","CFHR1","Q03591",12
+"ITIH3",">sp|Q06033|ITIH3_HUMAN Inter-alpha-trypsin inhibitor heavy chain H3 OS=Homo sapiens GN=ITIH3 PE=1 SV=2","ITIH3","Q06033",20
+"LGALS3BP",">sp|Q08380|LG3BP_HUMAN Galectin-3-binding protein OS=Homo sapiens GN=LGALS3BP PE=1 SV=1","LGALS3BP","Q08380",9
+"BST1",">sp|Q10588|BST1_HUMAN ADP-ribosyl cyclase 2 OS=Homo sapiens GN=BST1 PE=1 SV=2","BST1","Q10588",2
+"EFEMP1",">sp|Q12805|FBLN3_HUMAN EGF-containing fibulin-like extracellular matrix protein 1 OS=Homo sapiens GN=EFEMP1 PE=1 SV=2","EFEMP1","Q12805",15
+"MMRN1",">sp|Q13201|MMRN1_HUMAN Multimerin-1 OS=Homo sapiens GN=MMRN1 PE=1 SV=3","MMRN1","Q13201",2
+"APOF",">sp|Q13790|APOF_HUMAN Apolipoprotein F OS=Homo sapiens GN=APOF PE=1 SV=2","APOF","Q13790",2
+"ENPP2",">sp|Q13822|ENPP2_HUMAN Ectonucleotide pyrophosphatase/phosphodiesterase family member 2 OS=Homo sapiens GN=ENPP2 PE=1 SV=3","ENPP2","Q13822",5
+"SPARCL1",">sp|Q14515|SPRL1_HUMAN SPARC-like protein 1 OS=Homo sapiens GN=SPARCL1 PE=1 SV=2","SPARCL1","Q14515",4
+"HABP2",">sp|Q14520|HABP2_HUMAN Hyaluronan-binding protein 2 OS=Homo sapiens GN=HABP2 PE=1 SV=1","HABP2","Q14520",10
+"ITIH4",">sp|Q14624|ITIH4_HUMAN Inter-alpha-trypsin inhibitor heavy chain H4 OS=Homo sapiens GN=ITIH4 PE=1 SV=4","ITIH4","Q14624",39
+"TGFBI",">sp|Q15582|BGH3_HUMAN Transforming growth factor-beta-induced protein ig-h3 OS=Homo sapiens GN=TGFBI PE=1 SV=1","TGFBI","Q15582",9
+"ADIPOQ",">sp|Q15848|ADIPO_HUMAN Adiponectin OS=Homo sapiens GN=ADIPOQ PE=1 SV=1","ADIPOQ","Q15848",5
+"ECM1",">sp|Q16610|ECM1_HUMAN Extracellular matrix protein 1 OS=Homo sapiens GN=ECM1 PE=1 SV=2","ECM1","Q16610",14
+"HYDIN",">sp|Q4G0P3|HYDIN_HUMAN Hydrocephalus-inducing protein homolog OS=Homo sapiens GN=HYDIN PE=1 SV=3","HYDIN","Q4G0P3",2
+"ACTBL2",">sp|Q562R1|ACTBL_HUMAN Beta-actin-like protein 2 OS=Homo sapiens GN=ACTBL2 PE=1 SV=2","ACTBL2","Q562R1",2
+"VASN",">sp|Q6EMK4|VASN_HUMAN Vasorin OS=Homo sapiens GN=VASN PE=1 SV=1","VASN","Q6EMK4",6
+"PI16",">sp|Q6UXB8|PI16_HUMAN Peptidase inhibitor 16 OS=Homo sapiens GN=PI16 PE=1 SV=1","PI16","Q6UXB8",7
+"CD163",">sp|Q86VB7|C163A_HUMAN Scavenger receptor cysteine-rich type 1 protein M130 OS=Homo sapiens GN=CD163 PE=1 SV=2","CD163","Q86VB7",16
+"ROBO4",">sp|Q8WZ75|ROBO4_HUMAN Roundabout homolog 4 OS=Homo sapiens GN=ROBO4 PE=1 SV=1","ROBO4","Q8WZ75",2
+"CPB2",">sp|Q96IY4|CBPB2_HUMAN Carboxypeptidase B2 OS=Homo sapiens GN=CPB2 PE=1 SV=2","CPB2","Q96IY4",10
+"PGLYRP2",">sp|Q96PD5|PGRP2_HUMAN N-acetylmuramoyl-L-alanine amidase OS=Homo sapiens GN=PGLYRP2 PE=1 SV=1","PGLYRP2","Q96PD5",19
+"C1RL",">sp|Q9NZP8|C1RL_HUMAN Complement C1r subcomponent-like protein OS=Homo sapiens GN=C1RL PE=1 SV=2","C1RL","Q9NZP8",5
+"FETUB",">sp|Q9UGM5|FETUB_HUMAN Fetuin-B OS=Homo sapiens GN=FETUB PE=1 SV=2","FETUB","Q9UGM5",6
+"SERPINA10",">sp|Q9UK55|ZPI_HUMAN Protein Z-dependent protease inhibitor OS=Homo sapiens GN=SERPINA10 PE=1 SV=1","SERPINA10","Q9UK55",9
+"LYVE1",">sp|Q9Y5Y7|LYVE1_HUMAN Lymphatic vessel endothelial hyaluronic acid receptor 1 OS=Homo sapiens GN=LYVE1 PE=1 SV=2","LYVE1","Q9Y5Y7",3
+"FCGBP",">sp|Q9Y6R7|FCGBP_HUMAN IgGFc-binding protein OS=Homo sapiens GN=FCGBP PE=1 SV=3","FCGBP","Q9Y6R7",61

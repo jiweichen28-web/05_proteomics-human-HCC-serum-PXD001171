@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS / 编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ── 数据策略 ────────────────────────────────────────────────
+# 仅纳入复现所必需的小文本: 两队列各自的 proteinGroups.txt。
+# data/GU 与 data/TU 下其余 MaxQuant 文件体积大(msScans/evidence/msms 等)且复现不需要 → 全部排除;
+# 下载压缩包与原始谱图(.mzXML)也不入库。
+# 用白名单: 先忽略 data 全部, 再放行两个 proteinGroups.txt。
+data/*
+!data/GU/
+!data/TU/
+data/GU/*
+data/TU/*
+!data/GU/proteinGroups.txt
+!data/TU/proteinGroups.txt
+
+# 下载压缩包 / 原始谱图 / 序列化中间体(任意位置)
+*.zip
+*.raw
+*.mzXML
+*.mzML
+*.d/
+*.rds
+*.RData
+
+# 若希望结果图表不入库, 取消下面注释(默认纳入, 便于直接查看):
+# results/figures/
+# results/tables/
