@@ -8,10 +8,21 @@
 
 ## 流程位置：harness 8 阶段
 - P0 INTAKE ✅　P1 SCAFFOLD ✅　P2 DATA ✅　P3 IMPLEMENT ✅　P4 RESULTS ✅　P5 SHIP ✅　P6 LEARN ✅　P7 CLOSE ✅
-- **🎉 05 项目全部完成（P0→P7）**
-- GitHub: https://github.com/jiweichen28-web/05_proteomics-human-HCC-serum-PXD001171 (public)
-- 教训笔记: notes-lessons/No.5_lessons_human_proteomics.tex(+pdf, 9页, 不入库)
+- **🎉 05 项目全部完成（P0→P7）+ 深入分析扩展（05/06 脚本）**
+- GitHub: https://github.com/jiweichen28-web/05_proteomics-human-HCC-serum-PXD001171 (public, commit 3ad46ba)
+- 教训笔记: notes-lessons/No.5_lessons_human_proteomics.tex(+pdf, 12页, 不入库)
 - 顶层 README 索引已加 05
+
+## 深入分析扩展（基础复现之上，临床转化再分析）
+- **05_cross_cohort_panel.R**：跨队列验证 + 多蛋白 panel
+  - GU vs TU log2FC 一致性 r=0.73、77% 同向；16 robust markers(APOL1/B2M/FCGBP/VCAM1…)
+  - ⚠️ 防 ComBat 标签泄漏：跨队列验证回原始矩阵、每队列组内 z-score(不用 01 的 ComBat 矩阵)
+  - 4 蛋白逻辑回归 panel 外部验证 GU→TU AUC 0.73 / TU→GU 0.77；LASSO 0.70/0.68
+  - panel vs 单蛋白(5折CV)：单蛋白 ~0.5 vs panel 0.73 → 组合 >> 单一
+  - 已知 HCC 标志物核查 16/20 检出；AFP 检出但太稀疏被过滤(诚实标注)
+- **06_gsea_hallmark.R**：Hallmark ORA(COAGULATION) + GSEA preranked(COAGULATION+1.53/COMPLEMENT+1.36/EMT−1.51)
+  - Reactome 分支保留但本网络 reactome.db(454MB) 下不动 → 当前以 Hallmark 为主(诚实跳过)
+- 产出累计：scripts 9 个、19 图(PDF+PNG)、18 表；sessionInfo 已含 glmnet/msigdbr/fgsea
 
 ## P3 实测关键结果（填 README 用，已逐脚本验证）
 - 合并：212 共享基因 → 有效值过滤(组内≥50%) → **161 基因 × 205 样本**(HCC 97 / Cirrhosis 108; GU 116 / TU 89)
